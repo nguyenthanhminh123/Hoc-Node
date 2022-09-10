@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //HTTP logger
 app.use(morgan('combined'))
 
-// Template engine 
+// Template engine w
 app.engine('hbs', handlebars({
     extname: '.hbs'
 }));
