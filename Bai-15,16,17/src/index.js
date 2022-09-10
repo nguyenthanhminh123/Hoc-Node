@@ -14,7 +14,7 @@ app.use(express.json());
 
 //HTTP logger
 //app.use(morgan('combined'))
-
+s
 // Template engine 
 app.engine('hbs', handlebars({
     extname: '.hbs'
