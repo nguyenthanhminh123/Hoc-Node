@@ -15,7 +15,7 @@ app.engine('hbs', handlebars({
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'resources/views'));
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => {x
   res.render('home');
 })
 
